@@ -10,6 +10,8 @@ allcaps All letters in the string are presented in uppercase.
 
 count c The first occurrence of the character c in the string is replaced with 1. The second is replaced with 2, ... the tenth is replaced with 10, and so on.
 
+You issue a command of the form source-file list-of-decorators. If source-file is stdin, then input should be taken from cin
+
 sample.txt contains Hello World:
 input:
 sample.txt doublewords dropfirst 2 count l
